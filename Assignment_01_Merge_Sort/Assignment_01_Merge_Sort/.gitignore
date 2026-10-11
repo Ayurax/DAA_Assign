@@ -1,0 +1,8 @@
+# Compiled executable
+merge_sort
+merge_sort.exe
+*.o
+
+# Generated locally; the program can recreate these files
+Output.txt
+sorted_olist_orders_dataset.csv

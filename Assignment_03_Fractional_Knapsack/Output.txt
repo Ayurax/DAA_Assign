@@ -1,0 +1,39 @@
+===============================================
+     EMERGENCY RELIEF SUPPLY DISTRIBUTION
+             FRACTIONAL KNAPSACK
+===============================================
+
+Enter number of supply items: 
+Item 1
+Name: Weight (kg): Utility value: Divisible? (1 = yes, 0 = no): 
+Item 2
+Name: Weight (kg): Utility value: Divisible? (1 = yes, 0 = no): 
+Item 3
+Name: Weight (kg): Utility value: Divisible? (1 = yes, 0 = no): 
+Item 4
+Name: Weight (kg): Utility value: Divisible? (1 = yes, 0 = no): 
+Maximum boat capacity (kg): 
+Supplies sorted by utility per kg:
+Supply                      Weight     Utility       Ratio          Type
+------------------------------------------------------------------------
+Water                         6.00       60.00       10.00     Divisible
+Medicine Kit                  7.00       63.00        9.00    Whole only
+Food Boxes                    5.00       40.00        8.00     Divisible
+Blankets                      1.00        5.00        5.00    Whole only
+
+Supply selection:
+- Water: FULL, 6.00 kg, utility 60.00
+- Medicine Kit: SKIPPED (indivisible item does not fit)
+- Food Boxes: PARTIAL (80.00%), 4.00 kg, utility 32.00
+
+===============================================
+                 FINAL REPORT
+===============================================
+Boat capacity       : 10.00 kg
+Total weight carried: 10.00 kg
+Remaining capacity  : 0.00 kg
+Maximum utility     : 92.00 units
+Algorithm           : Fractional Knapsack (Greedy)
+Time complexity     : O(n log n)
+Auxiliary space     : O(log n) average for sorting stack
+===============================================
