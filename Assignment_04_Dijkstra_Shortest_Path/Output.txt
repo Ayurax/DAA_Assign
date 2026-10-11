@@ -1,0 +1,18 @@
+SMART CITY EMERGENCY ROUTE SYSTEM
+Intersections: 0 to 5; ambulance starts at node 0
+Hospitals are located at nodes 4 and 5.
+
+Before traffic update:
+Route: 0 -> 2 -> 1 -> 3 -> 4
+Travel time: 10 minutes
+Nearest hospital: 4
+
+Traffic update: road 2 <-> 1 changes from 1 to 12 minutes.
+
+After traffic update:
+Route: 0 -> 1 -> 3 -> 4
+Travel time: 11 minutes
+Nearest hospital: 4
+
+Algorithm: Dijkstra's shortest path
+Time complexity: O((V + E) log V) with a priority queue
