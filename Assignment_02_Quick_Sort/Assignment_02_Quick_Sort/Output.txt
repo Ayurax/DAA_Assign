@@ -1,0 +1,21 @@
+StreamFlix Movie Quick Sort
+Loaded 999 movies.
+Sort by:
+1. IMDb Rating
+2. Release Year
+3. Watch Time
+Enter choice: 
+Top 10 movies:
+No.  Title                                     Year    Rating   Watch Time (min)
+1    The Shawshank Redemption                  1994    9.3      142
+2    The Godfather                             1972    9.2      175
+3    The Dark Knight                           2008    9.0      152
+4    The Godfather: Part II                    1974    9.0      202
+5    12 Angry Men                              1957    9.0      96
+6    The Lord of the Rings: The Return of the  2003    8.9      201
+7    Pulp Fiction                              1994    8.9      154
+8    Schindler's List                          1993    8.9      195
+9    Inception                                 2010    8.8      148
+10   Fight Club                                1999    8.8      139
+
+Sorted 999 movies in 0.016438 seconds.
