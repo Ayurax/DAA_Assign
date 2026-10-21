@@ -1,0 +1,9 @@
+Enter number of cities: 4
+Enter the cost matrix (-1 for no direct route):
+0 10 15 20
+10 0 35 25
+15 35 0 30
+20 25 30 0
+
+Minimum tour cost: 80
+Optimal route: City 1 -> City 3 -> City 4 -> City 2 -> City 1
