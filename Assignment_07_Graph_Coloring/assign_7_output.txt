@@ -1,0 +1,23 @@
+UNIVERSITY EXAM TIMETABLE
+Graph Coloring with Room Allocation
+
+Greedy Coloring - Exam slots: 3
+Course	Slot	Room
+DAA	Slot 1	Room-A
+DBMS	Slot 2	Room-B
+OS	Slot 3	Room-C
+CN	Slot 1	Room-C
+
+DSATUR - Exam slots: 3
+Course	Slot	Room
+DAA	Slot 1	Room-A
+DBMS	Slot 2	Room-B
+OS	Slot 3	Room-C
+CN	Slot 1	Room-C
+
+Welsh-Powell - Exam slots: 3
+Course	Slot	Room
+DAA	Slot 1	Room-A
+DBMS	Slot 2	Room-B
+OS	Slot 3	Room-C
+CN	Slot 1	Room-C
