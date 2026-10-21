@@ -1,0 +1,58 @@
+========================================
+ DISASTER RELIEF RESOURCE ALLOCATION
+========================================
+Enter number of relief items: 4
+
+Enter item name, weight (kg), and utility.
+Use names without spaces, e.g., FirstAidKit.
+
+Item 1 name: food
+Weight (kg): 10
+Utility value: 100
+
+Item 2 name: firstaidkit
+Weight (kg): 20
+Utility value: 1000
+
+Item 3 name: water
+Weight (kg): 25
+Utility value: 3500
+
+Item 4 name: vegetables
+Weight (kg): 30
+Utility value: 500
+
+Enter truck capacity (kg): 55
+
+--- Recursive Approach ---
+Maximum Utility: 4600
+
+--- Memoization Approach ---
+Maximum Utility: 4600
+
+--- Tabulation Approach ---
+
+Dynamic Programming Table:
+ Items\W     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14    15    16    17    18    19    20    21    22    23    24    25    26    27    28    29    30    31    32    33    34    35    36    37    38    39    40    41    42    43    44    45    46    47    48    49    50    51    52    53    54    55
+       0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+       1     0     0     0     0     0     0     0     0     0     0   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100
+       2     0     0     0     0     0     0     0     0     0     0   100   100   100   100   100   100   100   100   100   100  1000  1000  1000  1000  1000  1000  1000  1000  1000  1000  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100  1100
+       3     0     0     0     0     0     0     0     0     0     0   100   100   100   100   100   100   100   100   100   100  1000  1000  1000  1000  1000  3500  3500  3500  3500  3500  3500  3500  3500  3500  3500  3600  3600  3600  3600  3600  3600  3600  3600  3600  3600  4500  4500  4500  4500  4500  4500  4500  4500  4500  4500  4600
+       4     0     0     0     0     0     0     0     0     0     0   100   100   100   100   100   100   100   100   100   100  1000  1000  1000  1000  1000  3500  3500  3500  3500  3500  3500  3500  3500  3500  3500  3600  3600  3600  3600  3600  3600  3600  3600  3600  3600  4500  4500  4500  4500  4500  4500  4500  4500  4500  4500  4600
+
+Selected Relief Items:
+food | Weight: 10 kg | Utility: 100
+firstaidkit | Weight: 20 kg | Utility: 1000
+water | Weight: 25 kg | Utility: 3500
+
+Maximum Total Utility: 4600
+Total Weight: 55 kg
+Remaining Capacity: 0 kg
+
+========== COMPLEXITY ANALYSIS ==========
+Recursive Time: O(2^N)
+Memoization Time: O(N * W)
+Tabulation Time: O(N * W)
+DP Space Complexity: O(N * W)
+
+Final Optimal Utility: 4600
